@@ -1,7 +1,7 @@
 resource "hcp_hvn" "vault_hvn" {
   hvn_id         = var.hvn_id #"cohort7"
   cloud_provider = "aws"
-  region         = "us-southeast-1"
+  region         = "ap-southeast-1"
   cidr_block     = "172.25.16.0/20"
 }
 
